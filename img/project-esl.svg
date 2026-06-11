@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="340" viewBox="0 0 600 340">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#272A35"/>
+      <stop offset="100%" stop-color="#0E7EC0"/>
+    </linearGradient>
+    <linearGradient id="device" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#A1B1CC"/>
+      <stop offset="100%" stop-color="#848B9B"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#A1B1CC"/>
+      <stop offset="100%" stop-color="#D0DBEE"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="600" height="340" fill="url(#bg)"/>
+
+  <g opacity="0.18" stroke="#A1B1CC" stroke-width="0.6">
+    <line x1="0" y1="85" x2="600" y2="85"/>
+    <line x1="0" y1="170" x2="600" y2="170"/>
+    <line x1="0" y1="255" x2="600" y2="255"/>
+    <line x1="150" y1="0" x2="150" y2="340"/>
+    <line x1="300" y1="0" x2="300" y2="340"/>
+    <line x1="450" y1="0" x2="450" y2="340"/>
+  </g>
+
+  <g fill="url(#device)" stroke="#D0DBEE" stroke-width="1" opacity="0.95">
+    <rect x="42" y="78" width="90" height="56" rx="8"/>
+    <rect x="152" y="78" width="90" height="56" rx="8" opacity="0.92"/>
+    <rect x="262" y="78" width="90" height="56" rx="8" opacity="0.88"/>
+  </g>
+
+  <g fill="#D0DBEE" opacity="0.9">
+    <rect x="48" y="86" width="76" height="14" rx="4"/>
+    <rect x="158" y="86" width="76" height="14" rx="4"/>
+    <rect x="268" y="86" width="76" height="14" rx="4"/>
+  </g>
+
+  <g font-family="monospace" font-weight="700" font-size="16" fill="#272A35" text-anchor="middle">
+    <text x="87" y="114">£2.49</text>
+    <text x="197" y="114">£4.99</text>
+    <text x="307" y="114">£12.00</text>
+  </g>
+
+  <g fill="#A1B1CC" opacity="0.72">
+    <rect x="48" y="118" width="50" height="6" rx="3"/>
+    <rect x="158" y="118" width="60" height="6" rx="3"/>
+    <rect x="268" y="118" width="46" height="6" rx="3"/>
+  </g>
+
+  <g fill="#D0DBEE" opacity="0.85">
+    <circle cx="114" cy="90" r="2.8"/>
+    <circle cx="120" cy="90" r="2.8" opacity="0.65"/>
+    <circle cx="126" cy="90" r="2.8" opacity="0.35"/>
+    <circle cx="224" cy="90" r="2.8"/>
+    <circle cx="230" cy="90" r="2.8" opacity="0.65"/>
+    <circle cx="236" cy="90" r="2.8" opacity="0.35"/>
+    <circle cx="334" cy="90" r="2.8"/>
+    <circle cx="340" cy="90" r="2.8" opacity="0.65"/>
+    <circle cx="346" cy="90" r="2.8" opacity="0.35"/>
+  </g>
+
+  <g stroke="#D0DBEE" stroke-width="1.3" fill="none" opacity="0.78" stroke-dasharray="4 3">
+    <line x1="84" y1="156" x2="84" y2="196"/>
+    <line x1="194" y1="156" x2="194" y2="196"/>
+    <line x1="304" y1="156" x2="304" y2="196"/>
+  </g>
+
+  <g fill="#D0DBEE" opacity="0.8">
+    <polygon points="84,201 79,191 89,191"/>
+    <polygon points="194,201 189,191 199,191"/>
+    <polygon points="304,201 299,191 309,191"/>
+  </g>
+
+  <rect x="60" y="200" width="280" height="50" rx="10" fill="#1F2433" stroke="#A1B1CC" stroke-width="1.4"/>
+  <text x="200" y="221" text-anchor="middle" font-family="monospace" font-size="11" fill="#D0DBEE" letter-spacing="1">MQTT BROKER</text>
+  <text x="200" y="240" text-anchor="middle" font-family="Segoe UI, Arial" font-size="10" fill="#A1B1CC" opacity="0.8">Elixir / Phoenix Backend</text>
+
+  <line x1="345" y1="225" x2="400" y2="225" stroke="#A1B1CC" stroke-width="1.5" stroke-dasharray="5 3" opacity="0.65"/>
+  <polygon points="405,225 396,220 396,230" fill="#A1B1CC" opacity="0.65"/>
+
+  <rect x="405" y="200" width="145" height="50" rx="10" fill="#1F2433" stroke="#0E7EC0" stroke-width="1.5"/>
+  <text x="478" y="221" text-anchor="middle" font-family="monospace" font-size="10" fill="#D0DBEE">DOCKER</text>
+  <text x="478" y="240" text-anchor="middle" font-family="Segoe UI, Arial" font-size="10" fill="#A1B1CC" opacity="0.75">Keycloak · OAuth2</text>
+
+  <rect x="370" y="30" width="190" height="38" rx="10" fill="#D0DBEE" opacity="0.16" stroke="#D0DBEE" stroke-width="1.2"/>
+  <text x="465" y="51" text-anchor="middle" font-family="Segoe UI, Arial" font-size="12" font-weight="700" fill="#0E7EC0">100+ ESL Devices — UK Retail</text>
+
+  <text x="30" y="305" font-family="Segoe UI, Arial" font-size="20" font-weight="800" fill="#FFFFFF">ESL Retail Automation Backend</text>
+  <text x="30" y="325" font-family="monospace" font-size="11" fill="#A1B1CC" opacity="0.95">Elixir · Phoenix · MQTT · Docker · Keycloak</text>
+</svg>
